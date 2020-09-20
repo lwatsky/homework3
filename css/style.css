@@ -83,7 +83,7 @@ td{
   border-width: 2px;
 
 }
-thead tr:first-child th:first-child{
+/*thead tr:first-child th:first-child{
   border-top-left-radius: 10px;
 }
 
@@ -93,12 +93,11 @@ thead tr:first-child th:last-child{
 
 tbody tr:last-child th:first-child{
   border-bottom-left-radius: 10 px;
-  border-color: #000000;
 }
 tbody tr:last-child td:last-child{
   border-bottom-right-radius: 10 px;
-  border-color: #000000;
-}
+
+}*/
 tr:nth-child(even){
   background-color: transparent;
 }
@@ -113,7 +112,7 @@ tr:hover{
 
 
 
-thead tr:first-child th:first-child{}
+/*thead tr:first-child th:first-child{}*/
 
 footer{
   width:100%;
