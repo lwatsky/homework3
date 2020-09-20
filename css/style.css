@@ -15,6 +15,7 @@ body{
   background-image: url('../images/pigeon-background.jpeg');
   background-position: center;
   background-color: #dddddd;
+  background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -25,7 +26,7 @@ main{
 }
 
 h1{
-  color: #B92751;
+  color: #C12258;
   font-size: 2em;
   text-align: center;
   line-height: 2;
@@ -41,57 +42,60 @@ p{
 
 a{
   font-size: 16px;
-  color: #C12258;
+  color: #B21F50;
   text-decoration-style: wavy;
 }
 
 table{
-    color: #000000;
     border: 2px solid #000000;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     border-radius: 10px;
 }
-thead{
-  padding-top: 10px;
-}
+
 .colhead{
   background-color: #7e0830;
   color: #FFFFFF;
   min-width: 125px;
-  padding: 10px 10px 10px 10px;
+  padding: 10px;
   text-align: center;
   vertical-align: middle;
   text-transform: uppercase;
 }
-.colhead:first-child{
-  border-top-left-radius: 10px;
-}
-.colhead:last-child{
-  border-top-right-radius: 10px;
-}
-
 
 .rowhead{
-  border-top: 2px solid #000000;
-  border-right: 2px solid #000000;
+  border-width: 2px;
+  border-top: solid #000000;
+  border-right: solid #000000;
   vertical-align: middle;
+  padding: 10px;
+  text-align: center;
 }
 
-td, 
-tr{
+*:focus{
+  border: 3px dashed #417243
+
+}
+td{
   padding: 10px;
   text-align: center;
   border-top: 2px solid #000000;
-  border-right: 2px solid #000000;
   vertical-align: middle;
+  border-width: 2px;
 
 }
-tr:last-child .rowhead{
+thead tr:first-child th:first-child{
+  border-top-left-radius: 10px;
+}
+
+thead tr:first-child th:last-child{
+  border-top-right-radius: 10px;
+}
+
+tbody tr:last-child th:first-child{
   border-bottom-left-radius: 10 px;
   border-color: #000000;
 }
-tr:last-child td:last-child{
+tbody tr:last-child td:last-child{
   border-bottom-right-radius: 10 px;
   border-color: #000000;
 }
@@ -108,10 +112,6 @@ tr:hover{
 
 
 
-*:focus{
-  border: 3px dashed #417243
-
-}
 
 thead tr:first-child th:first-child{}
 
@@ -124,12 +124,5 @@ footer{
   position: fixed;
   left:0px;
   bottom:0px;
-}
-footer p{
-  padding-right: 10px;
-  padding-left: 10px;
-  color: #FFFFFF;
-  text-align: center;
-
 }
 
