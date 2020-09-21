@@ -55,7 +55,7 @@ table{
 }
 
 .colhead{
-  background-color: #7e0830;
+  background-color: #7e0820;
   color: #FFFFFF;
   min-width: 125px;
   padding: 10px;
@@ -91,7 +91,7 @@ tbody tr:nth-child(even){
 }
 tbody tr:hover{
 
-  background-color: rgba(126, 8, 48, .25);
+  background-color: rgba(126, 8, 48, 0.25);
 }
 thead tr:first-child th:first-child{
   border-top-left-radius: 10px;
